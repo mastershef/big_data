@@ -1,0 +1,10 @@
+{
+  "Mondo": [ "America Latina", "Oceania", "Dalla Cina", "Asia", "Nord America", "Europa", "Medio Oriente", "Africa"],
+  "Sport": ["Tennis", "Nuoto", "Calcio", "Basket", "Ciclismo" ],
+  "Motori": ["F1", "Moto"],
+  "Economia": ["Cnpadc","PMI", "Federbeton","Criptovalute news", "Centro servizi per imprese", "Piani Individuali di Risparmio", "ABC Investimenti", "Risparmio & Investimenti", "Real Estate", "Groupama"],
+  "Cultura & Spettacoli" : ["Hermes","Festival Les Mots","Magazine", "Fondazione Stelline","Libri","Musica", "Arte",  "Libri", "Moda", "Teatro", "ITALIAN EXHIBITION GROUP"],
+  "Cinema e Film" : ["Tv","Giffoni 2017", "Cinema", "Giffoni", "Film"],
+  "Tecnologia" : ["Hi-tech", "Tlc", "Internet e Social", "Software e App"],
+  "NULL":["Approfondimenti", "L'Intervista"]
+}

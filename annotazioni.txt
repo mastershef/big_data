@@ -1,0 +1,37 @@
+Dataset
+ANSA agenzia di stampa
+I link trovati su duckduck go sono casuali, articoli più recenti se più recenti segnamo almeno il mese 
+Credo che ci si riferisca a tags con il maschile "i tags"
+"Si sono" o "sono stati"
+Scirvere il motivo per cui sono state prese solo 6 categorie quando ce ne erano di più
+
+Esperimenti
+Magari iniziare con:
+"prima di poter utilizzare modelli per l'analisi testuale è necessario preprocessare i dati rimuovendo eventuali elementi superflui, come tags html o link, e riducendo l'insieme dei termini del testo(e quindi il numero di features) tramite l'utilizzo di stopwords e stemming.
+Per fare ciò è stata utilizzata una pipeline attraverso cui far passare gli articoli:
+articoli -> |rimozione stopwords -> |stemming -> |rimozione
+tags html -> |rimozione punteggiatura -> |rimozione numeri -> |rimozione link."
+"L'insieme di dati preprocessati è stato poi suddiviso casualmente in tre sotto insiemi, un insieme di training, un insieme di validazione e un insieme di test, con rispettivamente 75%, 12.5% e 12.5% delle osservazioni.
+L'insieme di training è stato utilizzato per ottimizzare i parametri dell'albero di classificazione.
+[inserire magari un'immagine e grafico dell'ottimizzazione dei parametri come quella del prof]
+
+Come misura della validità del modello di classificazione abbiamo scelto di usare l'accuratezza, inquanto per come sono stati raccolti i dati, non risente di sbilanciamenti verso alcuna categoria.
+
+"Abbiamo" provato la classificazione cambiando il numero di topic dell'LDA partendo da 6, numero delle categorie "originali", per poi raddoppiare, con 12 e poi 24.
+Abbiamo visto che...
+
+Dopo di ciò sono stati confrontati i risultati ottenuti classificando con o senza LDA e utilizzando come modello per la classificazione un albero e la logistica.
+
+Abbiamo poi confrontato le performance utilizzando lda o senza cambiando la dimensione dell'insieme di training...
+
+"
+
+direi di ottimizzare min_df e max_df solo su un numero di componenti di LDA
+poi per ogni prova, con LDA ottimizziamo i parametri dell'albero
+
+micro categorie?
+
+tsne su matrice df?
+
+Scrivere che software è stato utilizzato per effettuare l'analisi
+

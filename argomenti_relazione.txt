@@ -1,0 +1,11 @@
+Sommario (Abstract).
+Introduzione
+Dataset
+Esperimenti
+Risultati
+
+Target -> accuratezza
+
+Tabelle da includere:
+1. Grafico generato con TSNE in 3D.
+2. report precisione accuratezza f1, del modello migliore
