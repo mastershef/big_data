@@ -83,7 +83,6 @@ distribuzione_frequenze(test_texts,"test")
 ```
 
 
-![png](output_11_0.png)
  
 ## Costuzione pipeline, che esclude preprocessamento
 
